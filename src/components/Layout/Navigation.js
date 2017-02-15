@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import Link from '../common/Link/link';
+import Link from '../common/Link';
 
 class Navigation extends React.Component {
 

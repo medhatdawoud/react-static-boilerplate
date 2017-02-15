@@ -10,7 +10,7 @@
 
 import React from 'react';
 import history from '../../history';
-import Link from '../../components/common/Link/Link';
+import Link from '../../components/common/Link';
 import s from './styles.css';
 
 class ErrorPage extends React.Component {

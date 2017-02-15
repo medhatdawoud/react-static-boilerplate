@@ -10,7 +10,7 @@
 
 import React from 'react';
 import Navigation from '../Navigation';
-import Link from '../../common/Link/link';
+import Link from '../../common/Link';
 import s from './Header.css';
 
 class Header extends React.Component {

@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import Link from '../../common/Link/Link';
+import Link from '../../common/Link';
 
 function Footer() {
   return (
