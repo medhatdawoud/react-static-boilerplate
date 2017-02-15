@@ -3,7 +3,6 @@
 ```bash
 ├── build.js                    # Compiles the app from source code
 ├── config.js                   # General application settings
-├── markdown-loader.js          # Webpack loader for .md files
 ├── postcss.config.js           # PostCSS settings for compiling CSS files
 ├── publish.js                  # Builds and deploys the app to Firebase
 ├── routes-loader.js            # Webpack loader for parsing src/routes.json
