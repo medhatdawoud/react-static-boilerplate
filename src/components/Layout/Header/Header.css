@@ -8,6 +8,14 @@
 * LICENSE.txt file in the root directory of this source tree.
 */
 
+.root {
+  margin: 0px -15px;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
 .row {
   padding: 40px;
 }
