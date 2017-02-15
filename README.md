@@ -48,17 +48,20 @@ or [ProductHunt](https://www.producthunt.com/tech/react-static-boilerplate) &nbs
 ### Directory Layout
 
 ```shell
-├── components/                 # Shared or generic UI components
-│   ├── Button/                 # Button component
-│   ├── Layout/                 # Website layout component
-│   ├── Link/                   # Link component to be used instead of <a>
-│   └── ...                     # etc.
+
 ├── docs/                       # Documentation to the project
 ├── node_modules/               # 3rd-party libraries and utilities
 ├── src/                        # Application source code
-│   ├── about/                  # About page
-│   ├── error/                  # Error page
-│   ├── home/                   # Home page
+|   ├── components/             # holds presentation components
+|   │   ├── Button/             # Button component
+|   │   ├── Layout/             # Website layout component
+|   │   ├── Link/               # Link component to be used instead of <a>
+|   │   └── ...                 # etc.
+│   ├── containers/             # contain all pages and container components
+|   |   ├── about/              # About page
+│   |   ├── error/              # Error page
+│   |   ├── home/               # Home page
+|   │   └── ...                 # etc.
 │   ├── history.js              # Handles client-side navigation
 │   ├── main.js                 # <== Application entry point <===
 │   ├── router.js               # Handles routing and data fetching
