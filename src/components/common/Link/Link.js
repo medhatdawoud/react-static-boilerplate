@@ -9,7 +9,7 @@
  */
 
 import React, { PropTypes } from 'react';
-import history from '../../src/history';
+import history from '../../../history';
 
 class Link extends React.Component {
 

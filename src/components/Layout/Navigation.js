@@ -9,11 +9,9 @@
  */
 
 import React from 'react';
-import Navigation from './Navigation';
-import Link from '../Link';
-import s from './Header.css';
+import Link from '../common/Link/link';
 
-class Header extends React.Component {
+class Navigation extends React.Component {
 
   componentDidMount() {
     window.componentHandler.upgradeElement(this.root);
@@ -25,18 +23,13 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className={`mdl-layout__header ${s.header}`} ref={node => (this.root = node)}>
-        <div className={`mdl-layout__header-row ${s.row}`}>
-          <Link className={`mdl-layout-title ${s.title}`} to="/">
-            React Static Boilerplate
-          </Link>
-          <div className="mdl-layout-spacer" />
-          <Navigation />
-        </div>
-      </header>
+      <nav className="mdl-navigation" ref={node => (this.root = node)}>
+        <Link className="mdl-navigation__link" to="/">Home</Link>
+        <Link className="mdl-navigation__link" to="/about">About</Link>
+      </nav>
     );
   }
 
 }
 
-export default Header;
+export default Navigation;
