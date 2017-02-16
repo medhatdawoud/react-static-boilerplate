@@ -17,6 +17,10 @@
     "page": "./containers/about"
   },
   {
+    "path": "/login",
+    "page": "./containers/login/login.component"
+  },
+  {
     "path": "/tasks/:status(pending|completed)?",
     "page": "./containers/home"
   }
