@@ -9,8 +9,7 @@
  */
 
 import React from 'react';
-import history from '../../history';
-import Link from '../../components/common/Link';
+import { Link, history } from 'react-router';
 import s from './styles.css';
 
 class ErrorPage extends React.Component {

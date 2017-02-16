@@ -7,7 +7,6 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 import routes from './routes';
-import history from './history';
 
 ReactDOM.render(
   <Provider store={store}>

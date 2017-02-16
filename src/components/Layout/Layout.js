@@ -21,12 +21,13 @@ class Layout extends React.Component {
   };
 
   render() {
+    const {location, params, route, router, routeParams , routes, ...rest} = this.props;
     return (
-      <div ref={node => (this.root = node)}>
-        <div className="container-fluid">
+      <div>
+        <div>
           <Header />
           <main className="container">
-            <div {...this.props} className={cx(s.content, this.props.className)} />
+            <div {...rest} className={cx(s.content, this.props.className)} />
             <Footer />
           </main>
         </div>
