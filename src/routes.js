@@ -12,3 +12,8 @@ export default (
         <Route path="login" component={LoginPage} />
     </Route>
 );
+
+// Enable Hot Module Replacement (HMR)
+if (module.hot) {
+    module.hot.accept();
+}
