@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../../components/Layout/Layout';
 import s from './login.css';
 
 class Login extends React.Component {
@@ -9,9 +8,7 @@ class Login extends React.Component {
 
     render() {
         return (
-            <Layout className={s.content}>
-                <h1>Login Page</h1>
-            </Layout>
+            <h1>Login Page</h1>
         );
     }
 }

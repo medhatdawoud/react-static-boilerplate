@@ -9,16 +9,13 @@
  */
 
 import React, { PropTypes } from 'react';
-import Layout from '../../components/Layout/Layout';
 import s from './styles.css';
 
 class HomePage extends React.Component {
 
   render() {
     return (
-      <Layout className={s.content}>
-        
-      </Layout>
+      <h1>Home</h1>
     );
   }
 

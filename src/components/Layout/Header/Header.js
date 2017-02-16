@@ -10,7 +10,7 @@
 
 import React from 'react';
 import Navigation from '../Navigation';
-import Link from '../../common/Link';
+import { Link } from 'react-router';
 import { Nav, Navbar, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import s from './Header.css';
 
@@ -22,13 +22,15 @@ class Header extends React.Component {
         <Navbar className={s.navbar} inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">PreSales Showcase</a>
+              <Link to="/">PreSales Showcase</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">Login</NavItem>
+              <li>
+                <Link to="login">Login</Link>
+              </li>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
